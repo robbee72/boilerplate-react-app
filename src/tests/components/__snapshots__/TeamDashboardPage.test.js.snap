@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TeamDashboardPage correctly 1`] = `
+<div>
+  <Connect(TeamsSummary) />
+  <Connect(TeamListFilters) />
+  <Connect(TeamList) />
+</div>
+`;

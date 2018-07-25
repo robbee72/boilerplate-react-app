@@ -1,5 +1,5 @@
 .list-header {
-  background: $off-white;
+  background: $light-blue;
   border: 1px solid darken($off-white, 7%);
   color: $grey;
   display: flex;
@@ -8,6 +8,7 @@
 }
 
 .list-body {
+  background: $aqua;
   margin-bottom: $m-size;
   @media (min-width: $desktop-breakpoint) {
     margin-bottom: $l-size;
@@ -15,9 +16,10 @@
 }
 
 .list-item {
+  background: $aqua;
   border: 1px solid darken($off-white, 7%);
   border-top: none;
-  color: $light-red;
+  color: $dark-red;
   display: flex;
   flex-direction: column;
   padding: $s-size;
@@ -51,7 +53,7 @@
 
 .list-item__sub-title {
   color: $grey;
-  font-size: $font-size-small;
+  font-size: $font-size-xsmall;
 }
 
 .list-item__data {

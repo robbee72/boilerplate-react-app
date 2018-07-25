@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TeamList with empty message 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Teams
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Team
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Division
+    </div>
+  </div>
+  <p>
+    No teams
+  </p>
+</div>
+`;
+
+exports[`should render TeamList with teams 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Teams
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Team
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Division
+    </div>
+  </div>
+  <TeamListItem
+    conference="Western"
+    division="Pacific"
+    createdAt={0}
+    homeTown="Vegas"
+    id="1"
+    note=""
+    teamName="Golden Knights"
+  />
+  <TeamListItem
+    conference="Western"
+    division="Central"
+    createdAt={-345600000}
+    homeTown="Minnesota"
+    id="2"
+    note=""
+    teamName="Wild"
+  />
+  <TeamListItem
+    conference="Eastern"
+    division="Metropolitan"
+    createdAt={345600000}
+    homeTown="Pittsburgh"
+    id="3"
+    note=""
+    teamName="Penguins"
+  />
+</div>
+`;

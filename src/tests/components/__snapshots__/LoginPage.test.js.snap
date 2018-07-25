@@ -10,15 +10,15 @@ exports[`should correctly render LoginPage 1`] = `
     <h1
       className="box-layout__title"
     >
-      League-League App
+      Hockey League
     </h1>
     <p>
-      It's time to get your expenses under control.
+      Hockey with react.
     </p>
     <button
       className="button"
     >
-      Login
+      Login with Google
     </button>
   </div>
 </div>

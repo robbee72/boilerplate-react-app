@@ -8,7 +8,7 @@ export const Header = ({ startLogout }) => (
     <div className="content-container">
       <div className="header__content">
         <Link className="header__title" to="/dashboard">
-          <h1>Boilerplate-react-app</h1>
+          <h1>Hockey-League</h1>
         </Link>
         <button className="button" onClick={startLogout}>Logout</button>
       </div>
